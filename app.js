@@ -28,7 +28,7 @@ doc.addEventListener("dblclick", function(e){
     .done(function( data ) {
       console.group();
       console.group();
-      console.warn('jQuery AJAX fired...');
+      console.log("%cjQuery AJAX fired...", "font-size: 20px; font-family: Monotype; color: white; background-color: black");
       console.groupEnd();
       console.groupEnd();
       var myData = $('<div>').html(data);
